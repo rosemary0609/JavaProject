@@ -47,10 +47,10 @@ public void setSpeed(int speed) {
 CPU类实现结果：
 ![alt console](https://user.qzone.qq.com/1936385032/main)
 HardDisk类实现结果：
-https://user.qzone.qq.com/1936385032/main
+![alt console](https://user.qzone.qq.com/1936385032/main)
 PC类实现结果：
-https://user.qzone.qq.com/1936385032/main
+![alt console](https://user.qzone.qq.com/1936385032/main)
 Test类实现结果：
-https://user.qzone.qq.com/1936385032/main
+![alt console](https://user.qzone.qq.com/1936385032/main)
 ## 实验感想
-通过本次实验
+通过本次实验我学会了基本的设置多个属性及如何调用使用这个方法，还形成了基本的逻辑思想，了解且掌握了如何将设置的属性设置成私有的，不能让其它类访问此方法及使用。
