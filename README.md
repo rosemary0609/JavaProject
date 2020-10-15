@@ -43,6 +43,17 @@ public void setSpeed(int speed) {
 		return price;
 	}
 ```
+4.方法4
+```
+	CPU(){
+		
+	}
+	CPU(int price,int speed,String type){
+		this.price=price;
+		this.speed=speed;
+		this.type=type;
+	}
+```
 ## 实验结果
 CPU类实现结果：
 ![alt console](https://user.qzone.qq.com/1936385032/main)
@@ -53,4 +64,4 @@ PC类实现结果：
 Test类实现结果：
 ![alt console](https://user.qzone.qq.com/1936385032/main)
 ## 实验感想
-通过本次实验我学会了基本的设置多个属性及如何调用使用这个方法，还形成了基本的逻辑思想，了解且掌握了如何将设置的属性设置成私有的，不能让其它类访问此方法及使用。
+通过本次实验我学会了基本的设置多个属性及如何调用使用这个方法，掌握构造方法的使用设置有参和无参。还逐步形成了基本的逻辑思想，了解且掌握了如何将设置的属性设置成私有的，不能让其它类访问此方法及使用。
