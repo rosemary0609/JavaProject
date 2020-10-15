@@ -55,13 +55,13 @@ public void setSpeed(int speed) {
 	}
 ```
 ## 实验结果
-CPU类实现结果：
-![alt console](https://user.qzone.qq.com/1936385032/main)
-HardDisk类实现结果：
-![alt console](https://user.qzone.qq.com/1936385032/main)
-PC类实现结果：
-![alt console](https://user.qzone.qq.com/1936385032/main)
-Test类实现结果：
-![alt console](https://user.qzone.qq.com/1936385032/main)
+CPU类实现结果：    
+![alt console](http://m.qpic.cn/psc?/V53x2lrX08Z9lF4J101F42x1Bd3epC0q/ruAMsa53pVQWN7FLK88i5o9Tbe5.C5NNcqBGSgNW1W2q*I9p4MwhxtqpWqnc.s6sQFGdC*DgWzwluQF3FZy3*qm4LVzvsgOuccPr.8t2HiY!/b&bo=cgOEAAAAAAABB9U!&rf=viewer_4)
+HardDisk类实现结果：   
+![alt console](http://m.qpic.cn/psc?/V53x2lrX08Z9lF4J101F42x1Bd3epC0q/45NBuzDIW489QBoVep5mcQDzNcP1F4dsQSLe3v41vhoAoF*CHMAI83ir7ICqL3y2wlUIwiMylOIyiy6mPzTO1B5Y89IdNr0oMFEkIsoh0g8!/b&bo=jgN2AAAAAAABF8s!&rf=viewer_4)
+PC类实现结果：     
+![alt console](http://m.qpic.cn/psc?/V53x2lrX08Z9lF4J101F42x1Bd3epC0q/45NBuzDIW489QBoVep5mcab5JjgFBJiyUU7dWwQGbvoYdBj9gZrcnEMArMJ.Q4Mt8PXHlPx6CfYL6bF15Jve08rHZVrkRBVbY2C5rQv7QFo!/b&bo=WgOCAAAAAAABF.s!&rf=viewer_4)
+Test类实现结果：  
+![alt console](http://m.qpic.cn/psc?/V53x2lrX08Z9lF4J101F42x1Bd3epC0q/45NBuzDIW489QBoVep5mcab5JjgFBJiyUU7dWwQGbvq89OHcVoB04A.E6v.tVxCn3UJNYZRomKOyNyaaD8685mojucqMe0HY6AD3.7q7cXc!/b&bo=cAPCAAAAAAABF4E!&rf=viewer_4)
 ## 实验感想
 通过本次实验我学会了基本的设置多个属性及如何调用使用这个方法，掌握构造方法的使用设置有参和无参。还逐步形成了基本的逻辑思想，了解且掌握了如何将设置的属性设置成私有的，不能让其它类访问此方法及使用。
