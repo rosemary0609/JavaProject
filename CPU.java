@@ -3,6 +3,14 @@ public class CPU {
 	private int speed;
 	int price;
 	String  type;
+	CPU(){
+		
+	}
+	CPU(int price,int speed,String type){
+		this.price=price;
+		this.speed=speed;
+		this.type=type;
+	}
 	int getSpeed(){
 		return speed;
 	}
@@ -22,22 +30,22 @@ public class CPU {
 		this.type = type;
 	}
 	public void show(String type,int price){
-		if(type=="Ó¢ÌØ"	){
-			System.out.println("µ±Ç°cpuÀàĞÍ¿ÉÒÔÊ¹ÓÃ");
+		if(type=="è‹±ç‰¹"	){
+			System.out.println("å½“å‰cpuç±»å‹å¯ä»¥ä½¿ç”¨");
 			
 		}else{
-			System.out.println("µ±Ç°cpuÀàĞÍ²»¿ÉÒÔÊ¹ÓÃ£¬Çë¸ü»»ÆäËü·½Ê½");
+			System.out.println("å½“å‰cpuç±»å‹ä¸å¯ä»¥ä½¿ç”¨ï¼Œè¯·æ›´æ¢å…¶å®ƒæ–¹å¼");
 			
 		}
 		if(price<6000&price>3000){
-			System.out.println("µ±Ç°¼Û¸ñÊÊÖĞ£¬½¨Òé¹ºÂò");	
+			System.out.println("å½“å‰ä»·æ ¼é€‚ä¸­ï¼Œå»ºè®®è´­ä¹°");	
 		}else{
-			System.out.println("µ±Ç°¼Û¸ñß¯¹ó£¬ÄúÓÆ×ÅµãÂò£¡");
+			System.out.println("å½“å‰ä»·æ ¼å¿’è´µï¼Œæ‚¨æ‚ ç€ç‚¹ä¹°ï¼");
 		}
 	}
 	public static void main(String[] args){
 		CPU Cpu=new CPU();
-		Cpu.setType("Ó¢ÌØ");
+		Cpu.setType("è‹±ç‰¹");
 		//Cpu.show(Cpu.type);
 		Cpu.setPrice(4000);
 		Cpu.show(Cpu.type, Cpu.price);
