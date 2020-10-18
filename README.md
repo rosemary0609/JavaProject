@@ -1,4 +1,4 @@
-# liQingQing 2020322064
+# 计G201 李青青 2020322064
 # JavaProject
 Java作业
 # 实验内容
